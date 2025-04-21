@@ -5,10 +5,10 @@ Download a ZIP of all these files.
 Install CircuitPython 9 onto your Pico 2040
 Basically copy over all the files and folders
 
-Wire X from ADXL335B to A1 (27)
+<li>Wire X from ADXL335B to A1 (27)
 Wire Y from ADXL335B to A2 (28)
 Wire GND to GND
-and 3V to VCC on the ADXL335B
+and 3V to VCC on the ADXL335B</li>
 
 Boot her up. You'll see a CircuitPython HID in "Set Up USB Game Controllers"
 
