@@ -1,15 +1,33 @@
-# pinball-nudge-controller
-A accelerometer based nudge solution for a virtual pinball using a ADXL335B and a Raspberry Pi Pico
+# Pinball Nudge Controller
 
-Download a ZIP of all these files.
-Install CircuitPython 9 onto your Pico 2040
-Basically copy over all the files and folders
+An accelerometer-based nudge solution for virtual pinball using an ADXL335B and a Raspberry Pi Pico.
 
-<li>Wire X from ADXL335B to A1 (27)
-Wire Y from ADXL335B to A2 (28)
-Wire GND to GND
-and 3V to VCC on the ADXL335B</li>
+## Steps to Get Started
 
-Boot her up. You'll see a CircuitPython HID in "Set Up USB Game Controllers"
+1. **Download** a ZIP file containing all necessary files.
+2. **Install CircuitPython 9** onto your Pico 2040.
+3. **Copy Over Files**: Transfer all files and folders onto your device.
 
-If you want to change the sensitivity , 
+## Wiring Instructions
+
+| Component      | Connection      |
+|----------------|-----------------|
+| X from ADXL335B | A1 (Pin 27)     |
+| Y from ADXL335B | A2 (Pin 28)     |
+| GND            | GND             |
+| 3V             | VCC on ADXL335B |
+
+## Booting Up
+
+Once everything is wired and set up:
+- Boot the Raspberry Pi Pico.
+- You'll see a **CircuitPython HID device** listed under "Set Up USB Game Controllers."
+
+## Adjusting Sensitivity
+
+If you need to change the sensitivity:
+- Modify the corresponding parameters in the provided files.
+
+---
+
+Ready to bring your virtual pinball game to life? Let me know if you'd like more details or assistance! 🚀
