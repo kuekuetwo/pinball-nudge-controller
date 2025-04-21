@@ -30,4 +30,4 @@ If you need to change the sensitivity:
 
 ---
 
-Ready to bring your virtual pinball game to life? Let me know if you'd like more details or assistance! 🚀
+
