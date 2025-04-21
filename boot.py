@@ -1,10 +1,9 @@
 """JoystickXL standard boot.py."""
 
-import usb_hid  # type: ignore (this is a CircuitPython built-in)
+import usb_hid  ]
 from joystick_xl.hid import create_joystick
 
-# This will enable all of the standard CircuitPython USB HID devices along with a
-# USB HID joystick.
+
 usb_hid.enable(
     (
         usb_hid.Device.KEYBOARD,
