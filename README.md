@@ -10,12 +10,12 @@ An accelerometer-based nudge solution for virtual pinball using an ADXL335B and 
 
 ## Wiring Instructions
 
-| Component      | Connection      |
+| ADXL335B       | PICO            |
 |----------------|-----------------|
-| X from ADXL335B | A1 (Pin 27)     |
-| Y from ADXL335B | A2 (Pin 28)     |
+| X AXIS         | A1 (Pin 27)     |
+| Y AXIS         | A2 (Pin 28)     |
 | GND            | GND             |
-| 3V             | VCC on ADXL335B |
+| VCC            | 3V              |
 
 ## Booting Up
 
